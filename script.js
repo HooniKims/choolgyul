@@ -812,6 +812,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // 실시간 업데이트 설정
     setupRealTimeUpdate();
     
-    // 초기 적용
+        // 초기 적용
     apply();
+
+    
 });

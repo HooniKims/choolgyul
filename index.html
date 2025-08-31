@@ -356,14 +356,13 @@
             width: 210mm !important;
             height: 297mm !important;
         }
-        body {
+                body {
             margin: 0 !important;
             padding: 0 !important;
             background: white !important;
             width: 210mm !important;
             height: 297mm !important;
-            transform: scale(1.5) !important;
-            transform-origin: 0 0 !important;
+            zoom: 1.5;
         }
         body * {
             visibility: hidden;
@@ -446,7 +445,7 @@
         color: #333;
         border: 1px solid #ddd;
     }
-    .modern-btn.secondary:hover {
+        .modern-btn.secondary:hover {
         background: linear-gradient(to bottom, #fff, #f5f5f5);
     }
     </style>
