@@ -2,607 +2,506 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>출결신고서</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="margin:0;padding:20px;display:flex;gap:20px;min-width:1200px;position:relative;">
-    <div class="hpa" style="position:relative;padding:0;overflow:hidden;margin-left:2mm;margin-right:0mm;margin-bottom:2mm;margin-top:0mm;border:1px black solid;box-shadow:1mm 1mm 0 #AAAAAA;width:210mm;height:296.99mm;flex-shrink:0;">
-        <div class="hcD" style="left:30mm;top:35mm;">
-            <div class="hcI">
-                <div class="hls ps26" style="line-height:22.44mm;white-space:nowrap;left:0mm;top:0mm;height:22.44mm;width:150mm;">
-                    <div class="htb" style="width:68.02mm;height:22.44mm;display:inline-block;position:relative;vertical-align:-15%;line-height:22.44mm;">
-                        <svg class="hs" viewBox="-2.50 -2.50 73.01 27.44" style="left:-2.50mm;top:-2.50mm;width:73.01mm;height:27.44mm;">
-                            <defs>
-                                <pattern id="w_00" width="10" height="10" patternUnits="userSpaceOnUse">
-                                    <rect width="10" height="10" fill="rgb(217,217,217)"></rect>
-                                </pattern>
-                            </defs>
-                            <path fill="url(#w_00)" d="M0,0L9.48,0L9.48,20.44L0,20.44L0,0Z "></path>
-                            <path d="M0,0 L0,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M9.48,0 L9.48,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M37.75,0 L37.75,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.15;"></path>
-                            <path d="M66.02,0 L66.02,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,0 L66.22,0" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M9.28,6.23 L66.22,6.23" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.15;"></path>
-                            <path d="M-0.20,20.44 L66.22,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M66.02,0 L66.02,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M0,0 L0,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,20.44 L66.22,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,0 L66.22,0" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                        </svg>
-                        <div class="hce" style="left:0mm;top:0mm;width:9.48mm;height:20.44mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.22mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:5.87mm;"><span class="hrt cs10">결</span></div>
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:5.87mm;"><span class="hrt cs10">재</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:9.48mm;top:0mm;width:28.27mm;height:6.23mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:0.50mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:24.67mm;"><span class="hrt cs10">부장</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:37.75mm;top:0mm;width:28.27mm;height:6.23mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:0.50mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:24.67mm;"><span class="hrt cs10">교장</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:9.48mm;top:6.23mm;width:28.27mm;height:14.21mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.14mm;">
-                                    <div class="hls ps22" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:24.67mm;"><span class="hrt cs12">전결</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:37.75mm;top:6.23mm;width:28.27mm;height:14.21mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.14mm;">
-                                    <div class="hls ps22" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:24.67mm;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<body>
+    <!-- 모바일 입력 패널 -->
+    <div id="mobileInputPanel" class="mobile-input-panel">
+        <div class="mobile-header">
+            <h1>출결신고서 작성</h1>
+        </div>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label for="inpStudentId">학번</label>
+                <input type="text" id="inpStudentId" placeholder="학번을 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="inpStudentName">학생 성명</label>
+                <input type="text" id="inpStudentName" placeholder="학생 이름을 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="inpGuardianName">보호자 성명</label>
+                <input type="text" id="inpGuardianName" placeholder="보호자 이름을 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="inpTeacherName">담임교사 성명</label>
+                <input type="text" id="inpTeacherName" placeholder="담임교사 이름을 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="selType">출결 종류</label>
+                <select id="selType">
+                    <option value="">선택하세요</option>
+                    <option value="질병결석">질병결석</option>
+                    <option value="기타결석">기타결석</option>
+                    <option value="인정결석">인정결석</option>
+                    <option value="인정지각">인정지각</option>
+                    <option value="인정조퇴">인정조퇴</option>
+                    <option value="인정결과">인정결과</option>
+                </select>
+            </div>
+            
+            <div class="date-group">
+                <div class="input-group half">
+                    <label for="startDate">시작일</label>
+                    <input type="date" id="startDate">
                 </div>
-                <div class="hls ps22" style="line-height:205.49mm;white-space:nowrap;left:0mm;top:23.99mm;height:205.49mm;width:150mm;">
-                    <div class="htb" style="width:150.43mm;height:205.49mm;display:inline-block;position:relative;vertical-align:-15%;line-height:205.49mm;">
-                        <svg class="hs" viewBox="-2.50 -2.50 155.43 210.49" style="left:-2.50mm;top:-2.50mm;width:155.43mm;height:210.49mm;">
-                            <path fill="url(#w_00)" d="M0,60.77L14.70,60.77L14.70,71.28L0,71.28L0,60.77Z "></path>
-                            <path fill="url(#w_00)" d="M0,71.28L14.70,71.28L14.70,87.25L0,87.25L0,71.28Z "></path>
-                            <path fill="url(#w_00)" d="M0,144.42L13.38,144.42L13.38,186.63L0,186.63L0,144.42Z "></path>
-                            <path fill="url(#w_00)" d="M13.38,144.42L30.65,144.42L30.65,157.63L13.38,157.63L13.38,144.42Z "></path>
-                            <path fill="url(#w_00)" d="M13.38,157.63L30.65,157.63L30.65,171.63L13.38,171.63L13.38,157.63Z "></path>
-                            <path fill="url(#w_00)" d="M13.38,171.63L30.65,171.63L30.65,186.63L13.38,186.63L13.38,171.63Z "></path>
-                            <path d="M0,60.77 L0,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M0,144.42 L0,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M13.38,144.42 L13.38,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M14.70,60.77 L14.70,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M30.65,144.42 L30.65,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M59.51,144.42 L59.51,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M88.38,144.42 L88.38,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M117.26,144.42 L117.26,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M148.43,60.77 L148.43,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M148.43,144.42 L148.43,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.06,60.77 L148.64,60.77" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,71.28 L148.64,71.28" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M-0.20,87.25 L148.64,87.25" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.06,128.43 L148.49,128.43" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M-0.06,144.42 L148.49,144.42" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,144.42 L148.64,144.42" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M13.32,157.63 L148.64,157.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M13.32,171.63 L148.64,171.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
-                            <path d="M-0.20,186.63 L148.64,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M148.43,60.77 L148.43,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M148.43,144.42 L148.43,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M0,144.42 L0,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M0,60.77 L0,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.20,186.63 L148.64,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                            <path d="M-0.06,60.77 L148.64,60.77" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
-                        </svg>
-                        <div class="hce" style="left:0mm;top:0mm;width:148.43mm;height:15.76mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:3.33mm;">
-                                    <div class="hls ps21" style="line-height:7.46mm;white-space:nowrap;left:0mm;top:-0.41mm;height:8.11mm;width:144.82mm;">
-                                            <img src="title.png" alt="출결신고서" style="width:60%;height:auto;display:block;margin:0 auto;position:relative;top:-10px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:15.76mm;width:95.03mm;height:20.24mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:7.50mm;">
-                                    <div class="hls ps26" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:91.43mm;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:95.03mm;top:15.76mm;width:18.30mm;height:9.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2mm;">
-                                    <div class="hls ps23" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:14.69mm;"><span class="hrt cs10">학 번 :&nbsp;</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:113.32mm;top:15.76mm;width:35.11mm;height:9.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2mm;">
-                                    <div id="topStudentId" class="hls ps20" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:31.51mm;text-align:center;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:95.03mm;top:24.98mm;width:18.30mm;height:11.02mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.89mm;">
-                                    <div class="hls ps23" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:14.69mm;"><span class="hrt cs10">성 명 :&nbsp;</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:113.32mm;top:24.98mm;width:35.11mm;height:11.02mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.89mm;">
-                                    <div id="topStudentName" class="hls ps20" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:31.51mm;text-align:center;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:36mm;width:148.43mm;height:24.76mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:6.38mm;">
-                                    <div id="typeTextLine" class="hls ps0" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:144.82mm;letter-spacing:0.3mm;">
-                                        <span class="hrt cs10">&nbsp;&nbsp;</span>
-                                        <span class="hrt cs11">본인은 아래와 같은 사유로 [(</span>
-                                        <span id="diseaseBox" class="hrt cs11">질병</span>
-                                        <span class="hrt cs11">, </span>
-                                        <span id="etcBox" class="hrt cs11">기타</span>
-                                        <span class="hrt cs11">)결석], [인정(</span>
-                                        <span id="absentBox" class="hrt cs11">결석</span>
-                                        <span class="hrt cs11">, </span>
-                                        <span id="lateBox" class="hrt cs11">지각</span>
-                                        <span class="hrt cs11">, </span>
-                                        <span id="earlyBox" class="hrt cs11">조퇴</span>
-                                        <span class="hrt cs11">, </span>
-                                        <span id="resultBox" class="hrt cs11">결</span>
-                                    </div>
-                                    <div class="hls ps0" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:144.82mm;">
-                                        <span id="resultBox2" class="hrt cs11">과</span>
-                                        <span class="hrt cs11">)]를 하였기에 보호자 연서로 신고서를 제출합니다.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:60.77mm;width:14.70mm;height:10.51mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.64mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:11.09mm;"><span class="hrt cs10">기간</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:14.70mm;top:60.77mm;width:133.73mm;height:10.51mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.64mm;">
-                                    <div id="periodLine" class="hls ps22 text-justify-container" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:130.13mm;"><span class="hrt cs10">20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;일 &nbsp;&nbsp;&nbsp;교시 ~ 20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;일 &nbsp;&nbsp;&nbsp;교시( &nbsp;&nbsp;&nbsp;일간)</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:71.28mm;width:14.70mm;height:15.97mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:5.37mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:11.09mm;"><span class="hrt cs10">사유</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:14.70mm;top:71.28mm;width:133.73mm;height:15.97mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:5.37mm;">
-                                    <div id="reasonCell" class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:130.13mm;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:87.25mm;width:148.43mm;height:41.17mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.06mm;">
-                                    <div class="hls ps21" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:144.82mm;"><span id="submissionDateLine" class="hrt cs12">&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</span></div>
-                                    <div class="hls ps24" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:7.69mm;height:4.23mm;width:144.82mm;"></div>
-                                    <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:10.65mm;height:4.23mm;width:144.82mm;">
-                                        <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">본&emsp;인 :</span>
-                                        <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="studentNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span><span id="studentNamePrint" style="letter-spacing:2px;line-height:4.23mm;vertical-align:middle;"></span></span>
-                                        <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
-                                    </div>
-                                    <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:17.43mm;height:4.23mm;width:144.82mm;">
-                                        <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">보호자 :</span>
-                                        <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="guardianNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span><span id="guardianNamePrint" style="letter-spacing:2px;line-height:4.23mm;vertical-align:middle;"></span></span>
-                                        <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
-                                    </div>
-                                    <div class="hls ps0" style="line-height:2.79mm;white-space:nowrap;left:0mm;top:24.24mm;height:3.53mm;width:144.82mm;"></div>
-                                    <div class="hls ps21" style="line-height:5.16mm;white-space:nowrap;left:0mm;top:29.76mm;height:6mm;width:144.82mm;"><span class="hrt cs14">등 &nbsp;촌 &nbsp;중 &nbsp;학 &nbsp;교 &nbsp;장 &nbsp;귀하</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:128.43mm;width:148.43mm;height:15.99mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:1.64mm;">
-                                    <div class="hls ps0" style="line-height:1.88mm;white-space:nowrap;left:0mm;top:-0.12mm;height:2.47mm;width:144.82mm;"></div>
-                                    <div class="hls ps20" style="line-height:7.06mm;white-space:nowrap;left:0mm;top:3.56mm;height:7.76mm;width:144.82mm;"><span class="hrt cs18">출 결 확 인 서</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:144.42mm;width:13.38mm;height:42.21mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:15.10mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:9.78mm;"><span class="hrt cs10">담임</span></div>
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:9.78mm;"><span class="hrt cs10">확인</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:13.38mm;top:144.42mm;width:17.27mm;height:13.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:3.99mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">방법</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:30.65mm;top:144.42mm;width:28.87mm;height:13.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.17mm;">
-                                    <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.26mm;"><span class="hrt cs16" id="confirmMethod1">보호자 대면</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:59.51mm;top:144.42mm;width:28.87mm;height:13.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.17mm;">
-                                    <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.26mm;"><span class="hrt cs16" id="confirmMethod2">보호자 통화</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:88.38mm;top:144.42mm;width:28.88mm;height:13.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.17mm;">
-                                    <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.27mm;"><span class="hrt cs16" id="confirmMethod3">문자 및 SNS</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:117.26mm;top:144.42mm;width:31.17mm;height:13.22mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:1.07mm;">
-                                    <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:27.57mm;"><span class="hrt cs16" id="confirmMethod4">기타</span></div>
-                                    <div id="confirmMethodParens" class="hls ps20 paren-justify" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:6.01mm;height:3.88mm;width:27.57mm;display:flex;justify-content:space-between;"><span class="hrt cs16">(</span><span class="hrt cs16">)</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:13.38mm;top:157.63mm;width:17.27mm;height:14mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.39mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">첨부</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:30.65mm;top:157.63mm;width:28.87mm;height:14mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.39mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:25.26mm;"><span class="hrt cs10" id="attachment1">진단서</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:59.51mm;top:157.63mm;width:28.87mm;height:14mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.39mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:25.26mm;"><span class="hrt cs10" id="attachment2">의사소견서</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:88.38mm;top:157.63mm;width:28.88mm;height:14mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:2.5mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;left:0mm;top:-0.21mm;height:10mm;width:25.27mm;text-align:center;"><span class="hrt cs10" id="attachment3">진료확인서<br/>및&nbsp;처방전</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:117.26mm;top:157.63mm;width:31.17mm;height:14mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:1.46mm;">
-                                    <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:27.57mm;"><span class="hrt cs16" id="attachment4">기타</span></div>
-                                    <div id="attachmentParens" class="hls ps20 paren-justify" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:6.01mm;height:3.88mm;width:27.57mm;display:flex;justify-content:space-between;"><span class="hrt cs16">(</span><span class="hrt cs16">)</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:13.38mm;top:171.63mm;width:17.27mm;height:15mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:1.50mm;">
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">추가</span></div>
-                                    <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">사항</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:30.65mm;top:171.63mm;width:117.79mm;height:15mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:4.88mm;">
-                                    <div id="additionalNotes" class="hls ps1" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:114.19mm;text-align:center;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hce" style="left:0mm;top:186.63mm;width:148.43mm;height:16.86mm;">
-                            <div class="hcD" style="left:1.80mm;top:0.50mm;">
-                                <div class="hcI" style="top:0.46mm;">
-                                    <div class="hls ps27" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:144.82mm;"><span class="hrt cs10">위 신고 내용이 사실임을 확인하였습니다.</span></div>
-                                    <div class="hls ps27" style="line-height:1.88mm;white-space:nowrap;left:0mm;top:6.65mm;height:2.47mm;width:144.82mm;"></div>
-                                    <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:10.51mm;height:4.23mm;width:144.82mm;">
-                                        <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">담&emsp;임 :</span>
-                                        <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="teacherNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span><span id="teacherNamePrint" style="letter-spacing:2px;line-height:4.23mm;vertical-align:middle;"></span></span>
-                                        <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <span class="hrt cs7">&nbsp;</span>
+                <div class="input-group half">
+                    <label for="endDate">종료일</label>
+                    <input type="date" id="endDate">
                 </div>
             </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <style>
-    @media print {
-        * {
-            -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-        }
-        html {
-            margin: 0 !important;
-            padding: 0 !important;
-            width: 210mm !important;
-            height: 297mm !important;
-        }
-        body {
-            margin: 0 !important;
-            padding: 0 !important;
-            background: white !important;
-            width: 210mm !important;
-            height: 297mm !important;
-            transform: scale(1.5) !important;
-            transform-origin: 0 0 !important;
-        }
-        body * {
-            visibility: hidden;
-        }
-        .hpa, .hpa * {
-            visibility: visible;
-        }
-        .hpa {
-            position: absolute !important;
-            left: 0 !important;
-            top: 0 !important;
-            margin: 0 !important;
-            border: none !important;
-            box-shadow: none !important;
-            width: 210mm !important;
-            height: 297mm !important;
-        }
-        @page {
-            size: A4;
-            margin: 0mm;
-        }
-    }
-    .type-selected {
-        border: 2px solid #000 !important;
-        padding: 1px 2px !important;
-        background-color: transparent !important;
-        display: inline-block !important;
-    }
-    .type-selected-left {
-        border: 2px solid #000 !important;
-        border-right: none !important;
-        padding: 1px 2px !important;
-        background-color: transparent !important;
-        display: inline-block !important;
-    }
-    .type-selected-right {
-        border: 2px solid #000 !important;
-        border-left: none !important;
-        padding: 1px 2px !important;
-        background-color: transparent !important;
-        display: inline-block !important;
-    }
-    .modern-input {
-        border: 1px solid #bbb;
-        border-radius: 4px;
-        padding: 8px 12px;
-        transition: all 0.3s;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        background: #fff;
-        font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
-    }
-    .modern-input:focus {
-        border-color: #4f70e8;
-        box-shadow: 0 0 0 3px rgba(79, 112, 232, 0.2);
-        outline: none;
-    }
-    .modern-select {
-        appearance: none;
-        background: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") no-repeat right 12px center;
-        background-size: 12px;
-        padding-right: 30px;
-    }
-    .modern-btn {
-        background: linear-gradient(to bottom, #4f70e8, #4865d8);
-        color: white;
-        border: none;
-        border-radius: 4px;
-        padding: 8px 16px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.2s;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    }
-    .modern-btn:hover {
-        background: linear-gradient(to bottom, #5a7cf0, #4f70e8);
-        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-    }
-    .modern-btn.secondary {
-        background: linear-gradient(to bottom, #f5f5f5, #e8e8e8);
-        color: #333;
-        border: 1px solid #ddd;
-    }
-    .modern-btn.secondary:hover {
-        background: linear-gradient(to bottom, #fff, #f5f5f5);
-    }
-    </style>
-    <div id="controlPanel" style="width:400px;background:#ffffff;box-shadow:0 4px 20px rgba(0,0,0,.2);border:1px solid #eee;padding:20px;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;border-radius:8px;height:fit-content;flex-shrink:0;">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-            <h3 style="margin:0;font-size:18px;color:#333;">출결 정보 입력</h3>
-            <button id="btnClosePanel" type="button" style="background:linear-gradient(to bottom, #4f70e8, #4865d8);color:#fff;border:none;cursor:pointer;font-size:12px;padding:4px 8px;border-radius:4px;">접기</button>
-        </div>
-        <div style="background:#f9f9f9;padding:8px;border-radius:6px;margin-bottom:10px;">
-            <div style="display:flex;gap:16px;margin-bottom:8px;justify-content:flex-start;">
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">학번</span>
-                    <input id="inpStudentId" type="text" class="modern-input" style="width:150px;">
-                </label>
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">이름</span>
-                    <input id="inpStudentName" type="text" class="modern-input" style="width:150px;">
-                </label>
-            </div>
-            <div style="display:flex;gap:16px;justify-content:flex-start;">
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">보호자명</span>
-                    <input id="inpGuardianName" type="text" class="modern-input" style="width:150px;">
-                </label>
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">담임명</span>
-                    <input id="inpTeacherName" type="text" class="modern-input" style="width:150px;">
-                </label>
-            </div>
-        </div>
-        <div style="background:#f9f9f9;padding:8px;border-radius:6px;margin-bottom:10px;">
-            <label style="display:block;margin-bottom:8px;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">종류</span>
-                <select id="selType" class="modern-input modern-select" style="width:100%;">
-                    <option selected>질병결석</option>
-                    <option>기타결석</option>
-                    <option>인정결석</option>
-                    <option>인정지각</option>
-                    <option>인정조퇴</option>
-                    <option>인정결과</option>
-                </select>
-            </label>
-            <label style="display:block;margin-bottom:0;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">사유</span>
-                <select id="selReason" class="modern-input modern-select" style="width:100%;">
-                    <option value="">선택</option>
-                    <option>병원진료</option>
-                    <option>미인정</option>
-                    <option>기타</option>
-                </select>
-            </label>
-            <div id="reasonOtherContainer" style="display:none;margin-top:8px;">
-                <label style="display:block;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">기타 사유 내용</span>
-                    <input id="reasonOtherText" type="text" class="modern-input" style="width:100%;" placeholder="구체적인 사유를 입력하세요">
-                </label>
-            </div>
-        </div>
-        <div style="background:#f9f9f9;padding:8px;border-radius:6px;margin-bottom:10px;">
-            <div style="display:flex;gap:16px;margin-bottom:8px;justify-content:flex-start;">
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">시작일</span>
-                    <input id="startDate" type="date" class="modern-input" style="width:150px;">
-                </label>
-                <label>
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">종료일</span>
-                    <input id="endDate" type="date" class="modern-input" style="width:150px;">
-                </label>
-            </div>
-            <div style="display:flex;gap:16px;margin-bottom:8px;">
-                <label style="width:150px;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">시작<span id="startPeriodSuffix">교시</span></span>
-                    <select id="startPeriod" class="modern-input modern-select" style="width:100%;">
+            
+            <div class="period-group">
+                <div class="input-group half">
+                    <label for="startPeriod">시작교시</label>
+                    <select id="startPeriod">
                         <option value="조회">조회</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
+                        <option value="1">1교시</option>
+                        <option value="2">2교시</option>
+                        <option value="3">3교시</option>
+                        <option value="4">4교시</option>
+                        <option value="5">5교시</option>
+                        <option value="6">6교시</option>
+                        <option value="7">7교시</option>
                     </select>
-                </label>
-                <label style="width:150px;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">종료<span id="endPeriodSuffix">교시</span></span>
-                    <select id="endPeriod" class="modern-input modern-select" style="width:100%;">
+                </div>
+                <div class="input-group half">
+                    <label for="endPeriod">종료교시</label>
+                    <select id="endPeriod">
                         <option value="조회">조회</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
+                        <option value="1">1교시</option>
+                        <option value="2">2교시</option>
+                        <option value="3">3교시</option>
+                        <option value="4">4교시</option>
+                        <option value="5">5교시</option>
+                        <option value="6">6교시</option>
+                        <option value="7">7교시</option>
                     </select>
-                </label>
+                </div>
             </div>
-            <div style="margin-bottom:0;">
-                <label style="display:block;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">날짜수 (일간) - 토/일/공휴일 제외</span>
-                    <input id="dayCount" type="number" min="1" class="modern-input" style="width:150px;" placeholder="자동 계산됨">
-                </label>
+            
+            <div class="input-group">
+                <label for="dayCount">일수</label>
+                <input type="number" id="dayCount" placeholder="자동 계산됩니다" readonly>
             </div>
-        </div>
-        <div style="background:#f9f9f9;padding:8px;border-radius:6px;margin-bottom:10px;">
-            <label style="display:block;margin-bottom:8px;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">담임 확인 방법</span>
-                <select id="confirmMethod" class="modern-input modern-select" style="width:100%;">
-                    <option value="">방법을 선택하세요</option>
+            
+            <div class="input-group">
+                <label for="selReason">사유</label>
+                <select id="selReason">
+                    <option value="">선택하세요</option>
+                    <option value="병원진료">병원진료</option>
+                    <option value="미인정">미인정</option>
+                    <option value="기타">기타</option>
+                </select>
+            </div>
+            
+            <div id="reasonOtherContainer" class="input-group" style="display:none;">
+                <label for="reasonOtherText">기타 사유</label>
+                <input type="text" id="reasonOtherText" placeholder="기타 사유를 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="submitDate">제출일</label>
+                <input type="date" id="submitDate">
+            </div>
+            
+            <div class="input-group">
+                <label for="confirmMethod">담임 확인 방법</label>
+                <select id="confirmMethod">
+                    <option value="">선택하세요</option>
                     <option value="보호자 대면">보호자 대면</option>
                     <option value="보호자 통화">보호자 통화</option>
                     <option value="문자 및 SNS">문자 및 SNS</option>
                     <option value="기타">기타</option>
                 </select>
-            </label>
-            <div id="confirmMethodOtherContainer" style="display:none;margin-top:8px;">
-                <label style="display:block;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">기타 확인 방법</span>
-                    <input id="confirmMethodOtherText" type="text" class="modern-input" style="width:100%;" placeholder="구체적인 확인 방법을 입력하세요">
-                </label>
             </div>
-            <label style="display:block;margin-bottom:0;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">첨부 서류</span>
-                <select id="attachmentType" class="modern-input modern-select" style="width:100%;">
-                    <option value="">첨부할 서류를 선택하세요</option>
+            
+            <div id="confirmMethodOtherContainer" class="input-group" style="display:none;">
+                <label for="confirmMethodOtherText">기타 확인 방법</label>
+                <input type="text" id="confirmMethodOtherText" placeholder="기타 확인 방법을 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="attachmentType">첨부 서류</label>
+                <select id="attachmentType">
+                    <option value="">선택하세요</option>
                     <option value="진단서">진단서</option>
                     <option value="의사소견서">의사소견서</option>
                     <option value="진료확인서 및 처방전">진료확인서 및 처방전</option>
                     <option value="기타">기타</option>
                 </select>
-            </label>
-            <div id="attachmentOtherContainer" style="display:none;margin-top:8px;">
-                <label style="display:block;">
-                    <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">기타 첨부 서류</span>
-                    <input id="attachmentOtherText" type="text" class="modern-input" style="width:100%;" placeholder="구체적인 첨부 서류명을 입력하세요">
-                </label>
+            </div>
+            
+            <div id="attachmentOtherContainer" class="input-group" style="display:none;">
+                <label for="attachmentOtherText">기타 첨부 서류</label>
+                <input type="text" id="attachmentOtherText" placeholder="기타 첨부 서류를 입력하세요">
+            </div>
+            
+            <div class="input-group">
+                <label for="txtNotes">추가 사항</label>
+                <textarea id="txtNotes" rows="3" placeholder="추가 사항이 있으면 입력하세요"></textarea>
+            </div>
+            
+            <!-- 모바일 미리보기 영역 -->
+            <div id="mobilePreview" class="mobile-preview">
+                <h3>미리보기</h3>
+                <div id="mobileDocumentContainer" class="mobile-document-container">
+                    <!-- 여기에 축소된 문서가 표시됩니다 -->
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button id="btnReset" class="btn-secondary">초기화</button>
+                <button id="btnPrint" class="btn-success">출력하기</button>
             </div>
         </div>
-        <div style="background:#f9f9f9;padding:8px;border-radius:6px;margin-bottom:10px;">
-            <label style="display:block;margin-bottom:8px;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">추가사항</span>
-                <input id="txtNotes" class="modern-input" style="width:320px;" placeholder="추가사항을 입력하세요">
-            </label>
-            <label style="display:block;margin-bottom:0;">
-                <span style="display:block;margin-bottom:4px;font-weight:500;color:#333;font-size:13px;">제출일</span>
-                <input id="submitDate" type="date" class="modern-input" style="width:200px;">
-            </label>
-        </div>
-        <div style="display:flex;gap:8px;margin-top:12px;">
-            <button id="btnPrint" type="button" class="modern-btn" style="flex:1;">출력하기</button>
-            <button id="btnReset" type="button" class="modern-btn secondary" style="flex:1;">초기화</button>
-        </div>
-        <div id="validationMsg" style="margin-top:8px;color:#e74c3c;font-size:13px;white-space:pre-line;display:none;"></div>
     </div>
-    <div id="controlToggle" style="background:linear-gradient(to bottom, #4f70e8, #4865d8);color:#fff;padding:8px 16px;border-radius:6px;font-size:13px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.2);display:none;margin:16px auto 0 auto;text-align:center;width:auto;min-width:120px;max-width:200px;height:40px;line-height:24px;overflow:hidden;">입력창 열기</div>
+
+    <!-- 출결신고서 문서 -->
+    <div id="documentContainer" class="document-container">      
+  <div class="hpa" style="position:relative;padding:0;overflow:hidden;margin:0 auto;border:1px black solid;box-shadow:1mm 1mm 0 #AAAAAA;width:210mm;height:296.99mm;">
+            <div class="hcD" style="left:30mm;top:35mm;">
+                <div class="hcI">
+                    <div class="hls ps26" style="line-height:22.44mm;white-space:nowrap;left:0mm;top:0mm;height:22.44mm;width:150mm;">
+                        <div class="htb" style="width:68.02mm;height:22.44mm;display:inline-block;position:relative;vertical-align:-15%;line-height:22.44mm;">
+                            <svg class="hs" viewBox="-2.50 -2.50 73.01 27.44" style="left:-2.50mm;top:-2.50mm;width:73.01mm;height:27.44mm;">
+                                <defs>
+                                    <pattern id="w_00" width="10" height="10" patternUnits="userSpaceOnUse">
+                                        <rect width="10" height="10" fill="rgb(217,217,217)"></rect>
+                                    </pattern>
+                                </defs>
+                                <path fill="url(#w_00)" d="M0,0L9.48,0L9.48,20.44L0,20.44L0,0Z "></path>
+                                <path d="M0,0 L0,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M9.48,0 L9.48,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M37.75,0 L37.75,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.15;"></path>
+                                <path d="M66.02,0 L66.02,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,0 L66.22,0" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M9.28,6.23 L66.22,6.23" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.15;"></path>
+                                <path d="M-0.20,20.44 L66.22,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M66.02,0 L66.02,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M0,0 L0,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,20.44 L66.22,20.44" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,0 L66.22,0" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                            </svg>
+                            <div class="hce" style="left:0mm;top:0mm;width:9.48mm;height:20.44mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.22mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:5.87mm;"><span class="hrt cs10">결</span></div>
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:5.87mm;"><span class="hrt cs10">재</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:9.48mm;top:0mm;width:28.27mm;height:6.23mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:0.50mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:24.67mm;"><span class="hrt cs10">부장</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:37.75mm;top:0mm;width:28.27mm;height:6.23mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:0.50mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:24.67mm;"><span class="hrt cs10">교장</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:9.48mm;top:6.23mm;width:28.27mm;height:14.21mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.14mm;">
+                                        <div class="hls ps22" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:24.67mm;"><span class="hrt cs12">전결</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:37.75mm;top:6.23mm;width:28.27mm;height:14.21mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.14mm;">
+                                        <div class="hls ps22" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:24.67mm;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hls ps22" style="line-height:205.49mm;white-space:nowrap;left:0mm;top:23.99mm;height:205.49mm;width:150mm;">
+                        <div class="htb" style="width:150.43mm;height:205.49mm;display:inline-block;position:relative;vertical-align:-15%;line-height:205.49mm;">
+                            <svg class="hs" viewBox="-2.50 -2.50 155.43 210.49" style="left:-2.50mm;top:-2.50mm;width:155.43mm;height:210.49mm;">
+                                <path fill="url(#w_00)" d="M0,60.77L14.70,60.77L14.70,71.28L0,71.28L0,60.77Z "></path>
+                                <path fill="url(#w_00)" d="M0,71.28L14.70,71.28L14.70,87.25L0,87.25L0,71.28Z "></path>
+                                <path fill="url(#w_00)" d="M0,144.42L13.38,144.42L13.38,186.63L0,186.63L0,144.42Z "></path>
+                                <path fill="url(#w_00)" d="M13.38,144.42L30.65,144.42L30.65,157.63L13.38,157.63L13.38,144.42Z "></path>
+                                <path fill="url(#w_00)" d="M13.38,157.63L30.65,157.63L30.65,171.63L13.38,171.63L13.38,157.63Z "></path>
+                                <path fill="url(#w_00)" d="M13.38,171.63L30.65,171.63L30.65,186.63L13.38,186.63L13.38,171.63Z "></path>
+                                <path d="M0,60.77 L0,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M0,144.42 L0,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M13.38,144.42 L13.38,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M14.70,60.77 L14.70,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M30.65,144.42 L30.65,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M59.51,144.42 L59.51,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M88.38,144.42 L88.38,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M117.26,144.42 L117.26,171.64" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M148.43,60.77 L148.43,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M148.43,144.42 L148.43,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.06,60.77 L148.64,60.77" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,71.28 L148.64,71.28" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M-0.20,87.25 L148.64,87.25" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.06,128.43 L148.49,128.43" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M-0.06,144.42 L148.49,144.42" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,144.42 L148.64,144.42" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M13.32,157.63 L148.64,157.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M13.32,171.63 L148.64,171.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.12;"></path>
+                                <path d="M-0.20,186.63 L148.64,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M148.43,60.77 L148.43,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M148.43,144.42 L148.43,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M0,144.42 L0,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M0,60.77 L0,87.26" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.20,186.63 L148.64,186.63" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                                <path d="M-0.06,60.77 L148.64,60.77" style="stroke:#000000;stroke-linecap:butt;stroke-width:0.40;"></path>
+                            </svg>
+                            <div class="hce" style="left:0mm;top:0mm;width:148.43mm;height:15.76mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:3.33mm;">
+                                        <div class="hls ps21" style="line-height:7.46mm;white-space:nowrap;left:0mm;top:-0.41mm;height:8.11mm;width:144.82mm;">
+                                                <img src="title.png" alt="출결신고서" style="width:60%;height:auto;display:block;margin:0 auto;position:relative;top:-10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:15.76mm;width:95.03mm;height:20.24mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:7.50mm;">
+                                        <div class="hls ps26" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:91.43mm;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:95.03mm;top:15.76mm;width:18.30mm;height:9.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2mm;">
+                                        <div class="hls ps23" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:14.69mm;"><span class="hrt cs10">학 번 :&nbsp;</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:113.32mm;top:15.76mm;width:35.11mm;height:9.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2mm;">
+                                        <div id="topStudentId" class="hls ps20" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:31.51mm;text-align:center;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:95.03mm;top:24.98mm;width:18.30mm;height:11.02mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.89mm;">
+                                        <div class="hls ps23" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:14.69mm;"><span class="hrt cs10">성 명 :&nbsp;</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:113.32mm;top:24.98mm;width:35.11mm;height:11.02mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.89mm;">
+                                        <div id="topStudentName" class="hls ps20" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:31.51mm;text-align:center;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:36mm;width:148.43mm;height:24.76mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:6.38mm;">
+                                        <div id="typeTextLine" class="hls ps0" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:144.82mm;letter-spacing:0.3mm;">
+                                            <span class="hrt cs10">&nbsp;&nbsp;</span>
+                                            <span class="hrt cs11">본인은 아래와 같은 사유로 [(</span>
+                                            <span id="diseaseBox" class="hrt cs11">질병</span>
+                                            <span class="hrt cs11">, </span>
+                                            <span id="etcBox" class="hrt cs11">기타</span>
+                                            <span class="hrt cs11">)결석], [인정(</span>
+                                            <span id="absentBox" class="hrt cs11">결석</span>
+                                            <span class="hrt cs11">, </span>
+                                            <span id="lateBox" class="hrt cs11">지각</span>
+                                            <span class="hrt cs11">, </span>
+                                            <span id="earlyBox" class="hrt cs11">조퇴</span>
+                                            <span class="hrt cs11">, </span>
+                                            <span id="resultBox" class="hrt cs11">결</span>
+                                        </div>
+                                        <div class="hls ps0" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:144.82mm;">
+                                            <span id="resultBox2" class="hrt cs11">과</span>
+                                            <span class="hrt cs11">)]를 하였기에 보호자 연서로 신고서를 제출합니다.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:60.77mm;width:14.70mm;height:10.51mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.64mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:11.09mm;"><span class="hrt cs10">기간</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:14.70mm;top:60.77mm;width:133.73mm;height:10.51mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.64mm;">
+                                        <div id="periodLine" class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:130.13mm;"><span class="hrt cs10">20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;일 &nbsp;&nbsp;&nbsp;교시 ~ 20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;일 &nbsp;&nbsp;&nbsp;교시( &nbsp;&nbsp;&nbsp;일간)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:71.28mm;width:14.70mm;height:15.97mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:5.37mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:11.09mm;"><span class="hrt cs10">사유</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:14.70mm;top:71.28mm;width:133.73mm;height:15.97mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:5.37mm;">
+                                        <div id="reasonCell" class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:130.13mm;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:87.25mm;width:148.43mm;height:41.17mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.06mm;">
+                                        <div class="hls ps21" style="line-height:4.10mm;white-space:nowrap;left:0mm;top:-0.25mm;height:4.94mm;width:144.82mm;"><span id="submissionDateLine" class="hrt cs12">&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;년 &nbsp;&nbsp;&nbsp;&nbsp;월 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</span></div>
+                                        <div class="hls ps24" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:7.69mm;height:4.23mm;width:144.82mm;"></div>
+                                        <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:10.65mm;height:4.23mm;width:144.82mm;">
+                                            <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">본&emsp;인 :</span>
+                                            <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="studentNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span><span id="studentNamePrint" style="letter-spacing:2px;line-height:4.23mm;vertical-align:middle;"></span></span>
+                                            <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
+                                        </div>
+                                        <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:17.43mm;height:4.23mm;width:144.82mm;">
+                                            <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">보호자 :</span>
+                                            <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="guardianNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span><span id="guardianNamePrint" style="letter-spacing:2px;line-height:4.23mm;vertical-align:middle;"></span></span>
+                                            <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
+                                        </div>
+                                        <div class="hls ps0" style="line-height:2.79mm;white-space:nowrap;left:0mm;top:24.24mm;height:3.53mm;width:144.82mm;"></div>
+                                        <div class="hls ps21" style="line-height:5.16mm;white-space:nowrap;left:0mm;top:29.76mm;height:6mm;width:144.82mm;"><span class="hrt cs14">등 &nbsp;촌 &nbsp;중 &nbsp;학 &nbsp;교 &nbsp;장 &nbsp;귀하</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:128.43mm;width:148.43mm;height:15.99mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:1.64mm;">
+                                        <div class="hls ps0" style="line-height:1.88mm;white-space:nowrap;left:0mm;top:-0.12mm;height:2.47mm;width:144.82mm;"></div>
+                                        <div class="hls ps20" style="line-height:7.06mm;white-space:nowrap;left:0mm;top:3.56mm;height:7.76mm;width:144.82mm;"><span class="hrt cs18">출 결 확 인 서</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:0mm;top:144.42mm;width:13.38mm;height:42.21mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:15.10mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:9.78mm;"><span class="hrt cs10">담임</span></div>
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:9.78mm;"><span class="hrt cs10">확인</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:13.38mm;top:144.42mm;width:17.27mm;height:13.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:3.99mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">방법</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:30.65mm;top:144.42mm;width:28.87mm;height:13.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.17mm;">
+                                        <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.26mm;"><span class="hrt cs16" id="confirmMethod1">보호자 대면</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:59.51mm;top:144.42mm;width:28.87mm;height:13.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.17mm;">
+                                        <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.26mm;"><span class="hrt cs16" id="confirmMethod2">보호자 통화</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:88.38mm;top:144.42mm;width:28.88mm;height:13.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.17mm;">
+                                        <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:25.27mm;"><span class="hrt cs16" id="confirmMethod3">문자 및 SNS</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:117.26mm;top:144.42mm;width:31.17mm;height:13.22mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:1.07mm;">
+                                        <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:27.57mm;"><span class="hrt cs16" id="confirmMethod4">기타</span></div>
+                                        <div id="confirmMethodParens" class="hls ps20 paren-justify" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:6.01mm;height:3.88mm;width:27.57mm;display:flex;justify-content:space-between;"><span class="hrt cs16">(</span><span class="hrt cs16">)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:13.38mm;top:157.63mm;width:17.27mm;height:14mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.39mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">첨부</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:30.65mm;top:157.63mm;width:28.87mm;height:14mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.39mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:25.26mm;"><span class="hrt cs10" id="attachment1">진단서</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:59.51mm;top:157.63mm;width:28.87mm;height:14mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.39mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:25.26mm;"><span class="hrt cs10" id="attachment2">의사소견서</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:88.38mm;top:157.63mm;width:28.88mm;height:14mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:2.5mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;left:0mm;top:-0.21mm;height:10mm;width:25.27mm;text-align:center;"><span class="hrt cs10" id="attachment3">진료확인서<br/>및&nbsp;처방전</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:117.26mm;top:157.63mm;width:31.17mm;height:14mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:1.46mm;">
+                                        <div class="hls ps20" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:-0.19mm;height:3.88mm;width:27.57mm;"><span class="hrt cs16" id="attachment4">기타</span></div>
+                                        <div id="attachmentParens" class="hls ps20 paren-justify" style="line-height:3.10mm;white-space:nowrap;left:0mm;top:6.01mm;height:3.88mm;width:27.57mm;display:flex;justify-content:space-between;"><span class="hrt cs16">(</span><span class="hrt cs16">)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:13.38mm;top:171.63mm;width:17.27mm;height:15mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:1.50mm;">
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">추가</span></div>
+                                        <div class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:6.56mm;height:4.23mm;width:13.66mm;"><span class="hrt cs10">사항</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:30.65mm;top:171.63mm;width:117.78mm;height:15mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:4.39mm;">
+                                        <div id="additionalNotes" class="hls ps22" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:114.18mm;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hce" style="left:30.65mm;top:186.63mm;width:117.78mm;height:18.86mm;">
+                                <div class="hcD" style="left:1.80mm;top:0.50mm;">
+                                    <div class="hcI" style="top:6.93mm;">
+                                        <div class="hls ps25" style="line-height:3.43mm;white-space:nowrap;left:0mm;top:-0.21mm;height:4.23mm;width:114.18mm;">
+                                            <span class="hrt cs10" style="display:inline-block;width:60px;text-align:right;line-height:4.23mm;vertical-align:middle;">담&emsp;임 :</span>
+                                            <span class="hrt cs10" style="display:inline-block;width:80px;overflow:hidden;line-height:4.23mm;vertical-align:middle;text-align:center;"><span id="teacherNameArea" style="display:inline-block;width:80px;line-height:4.23mm;vertical-align:middle;text-align:center;"></span></span>
+                                            <span class="hrt cs10" style="display:inline-block;width:30px;line-height:4.23mm;vertical-align:middle;"> (인)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html>""
